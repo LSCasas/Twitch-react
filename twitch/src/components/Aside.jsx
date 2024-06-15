@@ -66,9 +66,8 @@ export default function Aside() {
   ];
 
   return (
-    <aside className="col-start-1 col-end-2 row-start-2 row-end-3">
+    <aside className="hidden md:block col-start-1 col-end-2 row-start-2 row-end-3">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
-        {/* Encabezado */}
         <div className="col-span-2 flex items-center justify-between">
           <span className="font-mono text-sm text-slate-50">
             RECOMMENDED CHANNELS
@@ -79,8 +78,6 @@ export default function Aside() {
             className="w-5 h-5"
           />
         </div>
-
-        {/* Renderización de los elementos del menú */}
         {menuItems.map((item, index) => (
           <div
             key={`menu-item-${item.text}`}
