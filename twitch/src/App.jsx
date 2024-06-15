@@ -3,6 +3,7 @@ import NavBar from './components/NavBar';
 import Categories from './components/Categories';
 import Filter from './components/Filter';
 import Content from './components/Content';
+import Aside from './components/Aside'; // Asegúrate de importar Aside desde su ubicación correcta
 
 export default function App() {
   return (
