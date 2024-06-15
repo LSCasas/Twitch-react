@@ -67,7 +67,7 @@ export default function Aside() {
 
   return (
     <aside className="col-start-1 col-end-2 row-start-2 row-end-3">
-      <div className="grid grid-cols-2 gap-x-4 mt-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
         {/* Encabezado */}
         <div className="col-span-2 flex items-center justify-between">
           <span className="font-mono text-sm text-slate-50">
@@ -84,7 +84,7 @@ export default function Aside() {
         {menuItems.map((item, index) => (
           <div
             key={`menu-item-${item.text}`}
-            className="p-2 rounded-2xl flex items-center gap-2 hover:bg-gray-800"
+            className="p-2 rounded-2xl flex items-center gap-4 md:gap-2 hover:bg-gray-800"
             style={{
               gridRow: `${index + 2}`,
               gridColumn: "span 2",
@@ -95,12 +95,13 @@ export default function Aside() {
               display: "grid",
               gridTemplateColumns: "auto 1fr auto",
               alignItems: "center",
+              maxWidth: "100%",
             }}
           >
             <img
               src={item.img}
               alt={item.text}
-              className="w-8 h-8 rounded-full"
+              className="w-20 h-20 md:w-12 md:h-12 rounded-full object-cover"
             />
             <div className="flex flex-col">
               <span>{item.text}</span>
