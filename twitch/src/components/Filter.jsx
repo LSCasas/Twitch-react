@@ -3,7 +3,7 @@ import React from 'react';
 function Filter() {
   return (
     <div className="ml-10 my-10">
-      {/* Primer div con texto "Categories" y "Live Channels" */}
+     
       <div className="flex gap-8 mb-10">
         <div>
         <p className="text-lg font-medium ml-10 mt-1 text-[#BF94FF]">Categories</p>
@@ -14,7 +14,7 @@ function Filter() {
         </div>
       </div>
 
-      {/* Segundo div con el input de búsqueda y el select */}
+      
       <div className="flex justify-between items-center w-full px-4">
         <input
           type="text"

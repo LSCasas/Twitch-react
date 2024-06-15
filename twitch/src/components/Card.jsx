@@ -3,7 +3,7 @@ import clsx from "clsx";
 export default function Card({ image, title, viewes, doubleWidth, tag1, tag2 }) {
   return (
     <article className={clsx('flex flex-col gap-2', {
-      'col-span-2': doubleWidth, // Ocupa dos columnas si tiene doubleWidth
+      'col-span-2': doubleWidth, 
       'border-2 border-red-500': title === 'IRL',
     })}>
       <img src={image} alt="" className="rounded-lg aspect-w-16 aspect-h-9" />

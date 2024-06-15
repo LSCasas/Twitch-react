@@ -33,7 +33,7 @@ export default function NavBar() {
 
 
       <div className="flex grid-cols-3 items-center gap-4 justify-end">
-  {/* Imagen de la corona a la izquierda */}
+  
   <div className="col-span-1 flex justify-end">
     <img
       src="https://img.icons8.com/?size=100&id=stn4wvRvzzZs&format=png&color=FFFFFF"
@@ -42,7 +42,7 @@ export default function NavBar() {
     />
   </div>
 
-  {/* Contenedor de los botones en el centro */}
+
   <div className="col-span-1 flex justify-center space-x-4">
     <button className="text-sm py-1 px-2 rounded-lg bg-zinc-800 text-white font-sans font-medium" >
       Sign In
@@ -52,7 +52,7 @@ export default function NavBar() {
     </button>
   </div>
 
-  {/* Imagen de perfil a la derecha */}
+  
   <div className="col-span-1 flex justify-start">
     <img
       src="https://img.icons8.com/?size=100&id=Cssf43cjx2fu&format=png&color=FFFFFF"

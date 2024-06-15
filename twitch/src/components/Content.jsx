@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card'; // Ajusta la ruta según la ubicación real de Card.jsx
+import Card from './Card'; 
 
 export default function Content() {
   const cards = [
@@ -126,9 +126,9 @@ export default function Content() {
             image={card.image}
             title={card.title}
             viewes={card.viewes}
-            doubleWidth={card.doubleWidth} // Pasa la propiedad doubleWidth a Card
-            tag1={card.tag1} // Pasa la propiedad tag1 a Card
-            tag2={card.tag2} // Pasa la propiedad tag2 a Card
+            doubleWidth={card.doubleWidth} 
+            tag1={card.tag1} 
+            tag2={card.tag2} 
           />
         ))}
       </section>
