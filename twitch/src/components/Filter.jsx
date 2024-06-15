@@ -6,9 +6,7 @@ function Filter() {
       {/* Primer div con texto "Categories" y "Live Channels" */}
       <div className="flex gap-8 mb-10">
         <div>
-        <button className="border border-[#BF94FF] border-t-0 border-r-0 border-l-0 border-b-2 h-5 w-[50px] text-[#BF94FF] text-center md:text-lg md:h-10 md:w-[50px] font-mono text-3xl font-black tracking-tighter">
-  <p>Categories</p>
-</button>
+        <p className="text-lg font-medium ml-10 mt-1 text-[#BF94FF]">Categories</p>
        
         </div>
         <div>
