@@ -7,11 +7,10 @@ import Content from "./components/Content";
 
 export default function App() {
   return (
-    <main className="w-full min-h-screen p-2 md:p-4 grid grid-cols-1 md:grid-cols-[25%_1fr] grid-rows-[auto_1fr] gap-y-4 md:gap-y-8">
+    <main className="w-full min-h-screen p-2 md:p-4 grid grid-cols-1 md:grid-cols-[25%_1fr] grid-rows-[auto_1fr] gap-y-4 md:gap-y-8 overflow-x-hidden">
       <NavBar className="col-span-1 md:col-span-2" />
-      {/* Ocultar el Aside en dispositivos pequeños (móviles) */}
       <Aside className="hidden md:block" />
-      <div className="col-span-1">
+      <div className="col-span-1 overflow-y-auto">
         <Categories />
         <Filter />
         <Content />
@@ -19,6 +18,7 @@ export default function App() {
     </main>
   );
 }
+
 
 
 
