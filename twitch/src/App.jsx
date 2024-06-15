@@ -1,21 +1,21 @@
-import NavBar from "./components/NavBar";
-import Aside from './components/Aside';
-import Categories from "./components/Categories";
-import Filter from "./components/Filter";
-import Content from "./components/Content";
-
+import React from 'react';
+import NavBar from './components/NavBar';
+import Categories from './components/Categories';
+import Filter from './components/Filter';
+import Content from './components/Content';
 
 export default function App() {
   return (
-    <main className="w-full min-h-screen p-4 grid grid-cols-[25%_1fr] grid-rows-[auto_1fr] gap-y-8">
-      <NavBar className="col-span-2" />
-      <Aside />
-      <div className="">
+    <main className="w-full min-h-screen p-4 grid gap-8 md:grid-cols-[25%_1fr] md:grid-rows-[auto_1fr]">
+      <NavBar className="md:col-span-2" />
+      <div className="md:hidden">
         <Categories />
         <Filter />
-        <Content />
-        
       </div>
+      <div className="hidden md:block">
+        <Aside />
+      </div>
+      <Content />
     </main>
   );
 }

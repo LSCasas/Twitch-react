@@ -119,7 +119,7 @@ export default function Content() {
 
   return (
     <section className="col-span-1 row-span-1">
-      <section className={`grid ${hasDoubleWidth ? 'grid-cols-5' : 'grid-cols-6'} gap-x-2 gap-y-4 pt-4 ml-10`}>
+      <section className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-4 ml-10">
         {cards.map((card, index) => (
           <Card
             key={card.title}
