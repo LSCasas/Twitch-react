@@ -16,7 +16,7 @@ export default function NavBar() {
         <img
           src="https://img.icons8.com/?size=100&id=98963&format=png&color=FFFFFF"
           alt=""
-          className="w-5 h-5 rounded-full ml-5"
+          className="w-5 h-5 rounded-full ml-10"
         />
       </div>
       
