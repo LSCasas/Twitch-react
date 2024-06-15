@@ -28,12 +28,7 @@ export default function Content() {
       tag1: "Role-playing",
       tag2: "Strategy",
     },
-    {
-      image: "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/cc414737-1954-4a51-ac13-c13dbd67fc87.jpg",
-      title: "Advertisement",
-      viewes: "",
-      doubleWidth: true,
-    },
+    
     {
       image: "https://static-cdn.jtvnw.net/ttv-boxart/1863222988-285x380.jpg",
       title: "Kings League",
