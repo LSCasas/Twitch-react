@@ -23,3 +23,4 @@ export default function Card({ image, title, viewes, doubleWidth, tag1, tag2 }) 
     </article>
   );
 }
+
