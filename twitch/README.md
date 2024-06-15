@@ -1,8 +1,15 @@
-# React + Vite
+# Réplica de la Página de Twitch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una réplica simplificada de la página de inicio de Twitch, desarrollada utilizando React. Permite mostrar una lista de canales recomendados con imágenes, nombres de canal, tipo de contenido y visualizaciones simuladas.
 
-Currently, two official plugins are available:
+## Instalación
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para instalar y ejecutar este proyecto localmente, sigue este paso:
+
+ **Clonar el repositorio:**
+
+   Abre tu terminal y ejecuta el siguiente comando para clonar el repositorio desde GitHub:
+
+   ```bash
+   git clone <url-del-repositorio>
+
