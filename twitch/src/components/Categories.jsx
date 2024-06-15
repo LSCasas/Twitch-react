@@ -2,7 +2,7 @@ import React from 'react';
 
 function Categories() {
   return (
-    <div className='p-4'>
+    <div className='hidden md:block p-4'>
       
       <div className='ml-4 mt-10 mb-1 sm:ml-8'>
         <p className="text-3xl sm:text-6xl font-semibold">EXPLORE</p>
@@ -41,7 +41,6 @@ function Categories() {
           </button>
         </div>
 
-        
         <div className="relative">
           <button className="text-sm sm:text-lg py-2 sm:py-3 px-8 sm:px-16 rounded-lg bg-violet-700 text-white font-sans font-medium flex items-center justify-center relative">
             <img
@@ -54,7 +53,6 @@ function Categories() {
           </button>
         </div>
 
-        
         <div className="relative">
           <button className="text-sm sm:text-lg py-2 sm:py-3 px-8 sm:px-16 rounded-lg bg-violet-700 text-white font-sans font-medium flex items-center justify-center relative">
             <img
@@ -71,6 +69,7 @@ function Categories() {
 }
 
 export default Categories;
+
 
 
 
