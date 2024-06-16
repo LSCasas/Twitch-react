@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export default function Aside() {
   // Lista de elementos del menú con imágenes, textos, subtextos y views

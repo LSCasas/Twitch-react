@@ -1,4 +1,4 @@
-import React from "react";
+
 import clsx from "clsx";
 
 export default function Card({ image, title, viewes, doubleWidth, tag1, tag2 }) {

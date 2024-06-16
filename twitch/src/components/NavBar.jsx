@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Twitch from './TwitchLogo';
 
 export default function NavBar() {
