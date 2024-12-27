@@ -11,8 +11,8 @@ To get started with the project, follow these steps:
 
 1. Clone this repository to your Linux console:
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone git@github.com:LSCasas/twitch-react.git
+   cd twitch
 
 
 2. Install dependencies:
